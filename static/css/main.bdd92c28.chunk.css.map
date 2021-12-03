@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,KACE,QAAS,CACT,UACF,CAEA,OACE,uBAAgB,CAAhB,eAAgB,CAChB,eAAgB,CAChB,WAAY,CACZ,kBAAoB,CACpB,cACF","file":"main.bdd92c28.chunk.css","sourcesContent":["body {\n  margin: 0;\n  color: white;\n}\n\nbutton {\n  appearance: none;\n  background: none;\n  border: none;\n  border-radius: 0.2em;\n  cursor: pointer;\n}\n"]}
