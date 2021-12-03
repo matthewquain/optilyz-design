@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  color: white;
+}
+
+button {
+  appearance: none;
+  background: none;
+  border: none;
+  border-radius: 0.2em;
+  cursor: pointer;
+}

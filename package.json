@@ -1,37 +1,32 @@
 {
-  "name": "design-challenge",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://optilyzGmbH.github.io/design-challenge",
+  "name": "primary-button",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
   "dependencies": {
-    "@types/jest": "^26.0.24",
-    "@types/node": "^12.20.27",
-    "@types/react": "^17.0.24",
-    "@types/react-dom": "^17.0.9",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "typescript": "^4.4.3"
+    "@types/styled-components": "5.0.0",
+    "framer-motion": "1.8.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.0",
+    "styled-components": "5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.19",
+    "@types/react-dom": "16.9.5",
+    "typescript": "3.7.5"
   },
   "scripts": {
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "start": "react-scripts start"
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
